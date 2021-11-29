@@ -19,6 +19,7 @@ namespace OOP_giris
 
         public string soyisim { get; set; }
         public int cinsiyet { get; set; }
+        public int musteriID { get; set; }
 
         //yapıcı method constructor
         public musteri(string tc, string isim, string soyisim, int cinsiyet) : this(tc, isim, soyisim)
@@ -52,6 +53,19 @@ namespace OOP_giris
         private bool musteriKontrolDatabase(string tckimlik)
         {
             return true;
+
+        }
+
+        public void MusteriBilgileriniYazdır()
+        {
+            Console.WriteLine($"Müşteri no: "{musteriID} - {isim} {soyisim});
+        }
+
+        public void MusteriUrunSepetYazdir()
+        {
+
+
+
         }
     }
 }
