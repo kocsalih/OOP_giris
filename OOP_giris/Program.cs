@@ -22,6 +22,8 @@ namespace OOP_giris
 
             #endregion
 
+
+            //prop yazınca public int get set geliyor
             fruit meyve1 = new fruit();
             meyve1.FruitName = "elma";
             meyve1.MeyveRengi = "kırmızı";

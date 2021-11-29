@@ -46,6 +46,7 @@
     <Compile Include="arac.cs" />
     <Compile Include="aracBase.cs" />
     <Compile Include="fruit.cs" />
+    <Compile Include="Imusteri.cs" />
     <Compile Include="musteri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -12,7 +12,7 @@ namespace OOP_giris
         //public string fruitName { get; set; }
         //public string meyveRengi { get; set; }
         //public DateTime olusturmaTarihi { get; set; }
-
+       
         private string fruitName;
         private string meyveRengi;
         private DateTime olusturmaTarihi;
